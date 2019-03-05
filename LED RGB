@@ -1,0 +1,33 @@
+int b1= 8;
+int b2= 9;
+int b3= 10;
+int red= 2;
+int blue= 3;
+int green= 4;
+
+bool e1
+bool e2
+bool e3
+
+
+void setup() {
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+}  
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(primero);                       // wait for a second
+  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+  delay(primero);  
+  digitalWrite(11, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(segundo);                       // wait for a second
+  digitalWrite(11, LOW);    // turn the LED off by making the voltage LOW
+  delay(segundo);  
+    digitalWrite(9, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(tercero);                       // wait for a second
+  digitalWrite(9, LOW);    // turn the LED off by making the voltage LOW
+  delay(tercero);  // wait for a second
+}
